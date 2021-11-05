@@ -1,7 +1,7 @@
 # onlinecviceni-solver
 script do console který vyplní políčka ve cvičeních na onlinecviceni.cz
 
-#KOD
+# kód pro slovní doplnění (funguje pro většinu matematických cvičení)
 ```js
 var ff = document.getElementById("id_form2").firstElementChild
 var v = ff.value.split("%3B")
@@ -18,4 +18,9 @@ for(var o=1;o<vecii.length;o++) {
   		document.getElementById("idField"+(ro-1).toLocaleString()).value = vecii[ro]  
     }
 }
+```
+
+# kód pro výběr z nabídky (funguje pro většinu češtinářských cvičení)
+```js
+// zatím není...
 ```
